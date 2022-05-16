@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="870.0" prefWidth="1167.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myxat.ServerControlador">
+   <children>
+      <TextArea fx:id="txtArea" layoutX="189.0" layoutY="89.0" prefHeight="531.0" prefWidth="630.0">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font></TextArea>
+      <Label layoutX="418.0" layoutY="28.0" text="SERVIDOR" textAlignment="CENTER" textFill="#fafafa">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnConnectar" layoutX="215.0" layoutY="660.0" mnemonicParsing="false" onAction="#Connect" prefHeight="44.0" prefWidth="203.0" style="-fx-background-color: #0071E3;" text="Connectar" textFill="#fafafa">
+         <font>
+            <Font name="Segoe UI" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnTancar" layoutX="583.0" layoutY="660.0" mnemonicParsing="false" onAction="#Tancar" prefHeight="44.0" prefWidth="203.0" style="-fx-background-color: #ff3b30;" text="Tancar" textFill="#fafafa">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Segoe UI" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
